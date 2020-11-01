@@ -1,38 +1,11 @@
 #top {
-	margin-top: 5%;
+	margin-top: 4%;
 }
-
-body{
-	
-}
-
-.jumbotron {
-	opacity: 0.9;
-}
-
-#dissapear {
-	list-style:none;
-}
-
-.navbar-custom {
-    background-color: #A52A2A;
-}
-
-.navbar-custom .nav-item:hover .nav-link {
-	color: #fff;
-	font-weight: bold;
-}
-
-
-
-/* body, html {
-	height:100%;
-} */
-
 
 body {  
-  margin-top: 65px;
-  background-image: url("https://source.unsplash.com/StPVBS7Scp8");
+  font-family: 'Roboto', sans-serif;
+  margin-top: 4em;
+  background-image: url("https://source.unsplash.com/GnvurwJsKaY");
   width: 100%;
   height: 100%;
   top: 0;
@@ -44,4 +17,59 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+
+.jumbotron {
+	opacity: 0.9;
+}
+
+#dissapear {
+	list-style:none;
+}
+
+.dropdown-menu {
+	background-color: black;
+}
+
+.navbar-custom {
+    background-color: #0096c7;
+}
+
+#main .navbar-brand {
+	color: #e71d36;
+	font-weight:700;
+}
+
+#main .contact {
+	color: white;
+}
+
+#main .nav-link:hover {
+	font-size: 1.07em;
+	font-weight: bold;
+}
+
+.fa-envelope {
+	color: red;
+}
+
+.fa-phone-alt{
+	color: green;
+}
+
+.fa-linkedin{
+	color: blue;
+}
+
+.fa-project-diagram{
+	color: #e85d04;
+}
+
+.fa-spinner{
+	color: #4ea8de;
+}
+
+.contact:hover {
+	font-weight: bold;
+	background-color: #0077b6;
 }
