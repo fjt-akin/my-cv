@@ -1,0 +1,106 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.left {
+	left:0;
+	background-image: url("https://source.unsplash.com/Fab-yaD-Xrc");
+    background-attachment: fixed;
+   
+}
+
+.right {
+	right: 0;
+	background-image: url("https://source.unsplash.com/Oz_J_FXKvIs");
+	z-index="-1"
+    background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.port {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	padding:0;
+	margin: 0;
+}
+
+.space {
+	margin:0 1.1rem;
+}
+
+#primary {
+	margin: 7em 3em 0em;
+}
+
+#secondary {
+	margin: 5em 3em 0;
+}
+
+#secondary a {
+	text-decoration: none;
+	color: #9a031e;
+}
+
+footer {
+	margin: 1em 3em 0;
+}
+
+#primary h1 {
+	font-weight: 400;
+}
+
+.port h1 {
+	color: #9a031e;
+	font-family: 'Source Code Pro', monospace;
+	z-index: 3
+}
+
+ #anchor a {
+	color: black;
+	 font-weight: 700;
+}
+
+#anchor a:hover {
+	color: #011627;
+}
+
+
+.fa-project-diagram{
+	color: #e85d04;
+}
+
+.fa-instagram {
+	color: #4d194d;
+}
+
+.fa-spinner{
+	color: #4ea8de;
+}
+
+.fa-envelope {
+	color: red;
+}
+.fa-phone-alt{
+	color: green;
+}
+.lead {
+	font-weight: 400;
+}
+
+
+@media (max-width: 280px) {
+#primary p {
+		font-size: 0.9em;
+	}
+	
+	#secondary h5 {
+		font-size: 0.8em
+	}
+	
+	footer a {
+		font-size: 0.9em;
+	}
+}

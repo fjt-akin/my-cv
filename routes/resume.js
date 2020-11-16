@@ -6,6 +6,10 @@ router.get("/", (req, res)=>{
 	res.render("landing")
 })
 
+router.get("/home", (req, res)=>{
+	res.render("home")
+})
+
 router.get("/professional", (req, res)=>{
 	res.render("professional")
 })
